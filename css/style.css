@@ -1,0 +1,70 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+.main_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../image/bgimage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.card_container{
+    backdrop-filter: blur(4px);
+    margin: 0 auto;
+    top: 158px;
+    right: 562px;
+    padding: 15px;
+    width: 400px;
+    height: 400px;
+    border-radius: 15px;
+    background-color: #dbdbdb38;
+    border: 1px solid #DBDBDB;
+    box-shadow: 1px 1px 14px black;
+}
+.image_section img{
+    text-align: center;
+    margin: 46px 98px;
+    width: 166px;
+}
+.user_detail_section form .class1{
+    display: flex;
+    padding: 13px 0px;
+    width: 367px;
+    border-radius:4px;
+    margin: 22px 0px;
+	border:1px solid;
+	background-color:#DEDEDE;
+}
+.user_detail_section form .class2{
+    display: flex;
+    padding: 13px 0px;
+    width: 367px;
+    border-radius:4px;
+    margin: 22px 0px;
+	border:1px solid;
+	background-color:#DEDEDE;
+}
+.link_section .link1{
+	text-decoration: none;
+    display: block;
+    color: white;
+    font-weight: bolder;
+    background-color:#4B4B4B;
+    text-align: center;
+    padding: 8px 0px;
+    border-radius: 7px;
+	font-size:16px;
+}
+.link_section .link2{
+    display: block;
+    color: white;
+    text-align: center;
+	font-size:13px;
+	margin:5px 0px;
+}
